@@ -1,0 +1,66 @@
+body{background-color:black;
+	padding: 150px;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: darkslategrey;
+	text-align: center;
+}
+
+img {width: 300px;
+	height: 300px;
+	object-fit: cover;}
+
+.big-size {
+	width: 1100px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.small-size {
+	width: 30%;
+	height: 30%;
+	object-fit: cover;
+}
+
+.elements-center{
+	text-align: center;
+}
+
+.elementsontheleft {
+	text-align: left;
+}
+
+.elements-middle {
+	text-align: center;
+}
+
+div {
+	background-color: ghostwhite;
+	padding-right: 50 px;
+	padding-left: 50 px;
+	border: 5px solid ghostwhite;
+}
+
+.elements-aligned {
+	display: flex;
+	justify-content: space-around;
+}
+
+.navigation-aligned {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+a {
+	color: darkslategrey;
+	text-decoration: none;
+
+}
+a:hover {
+	color: ghostwhite;
+	font-size: 18px;
+}
